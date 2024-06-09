@@ -7,8 +7,22 @@
     <title>Document</title>
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
     <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="features.css">
 </head>
 <body>
-
+    <header class="header">
+        <nav hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
+        <section hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header-hero.partial.html"></section>
+    </header>
+    <main class = "main">
+        <section hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.features.partial.html"></section>
+        <section hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.organize.partial.html"></section>
+        <section hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.prototyping.partial.html"></section>
+        <section hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.partners.partial.html"></section>
+        <section hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.testimonials.partial.html"></section>
+        <section hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.pricing.partial.html"></section>
+        <section hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.contact-us.partial.html"></section>
+    </main>
 </body>
+<footer hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.footer.partial.html"> </footer>
 </html>
