@@ -2,6 +2,7 @@
 
 :root {
   --font-family-primary: "Roboto", serif;
+  --text-color-light: rgb(249, 241, 241);
 }
 
 * {
@@ -9,3 +10,11 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
