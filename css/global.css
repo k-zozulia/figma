@@ -3,6 +3,9 @@
 :root {
   --font-family-primary: "Roboto", serif;
   --text-color-light: rgb(249, 241, 241);
+  --text-color-dark: #2a2a2a;
+  --button-color-primary: #05b4ff;
+  --button-color-primary-hover: #290bf0;
 }
 
 * {
@@ -17,4 +20,13 @@ img {
 
 a {
   text-decoration: none !important;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
 }

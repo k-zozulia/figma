@@ -179,7 +179,7 @@
     .header__nav-logo_display {
         margin: auto;
         width: 300px;
-        padding: 20px;
+
     }
 
     .header__nav-menu {
@@ -196,7 +196,12 @@
     }
 
     .header__link {
-        padding: 20px;
+        padding: 10px;
+        transition: color 0.3s ease;
+    }
+
+    .header__link:hover {
+        color: var(--button-color-primary-hover);
     }
 
     .header__social-media-container {

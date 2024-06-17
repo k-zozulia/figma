@@ -1,0 +1,37 @@
+.features {
+    text-align: center;
+
+    .features__title {
+    font-family: var(--font-family-primary);
+    color: var(--text-color-dark);
+    font-size: 48px;
+    letter-spacing: 2px;
+    padding: 50px 0;
+    }
+
+    .features__subtitle {
+        font-family: var(--font-family-primary);
+        color: var(--text-color-dark);
+        font-size: 24px;
+        max-width: 540px;
+        margin: auto;
+    }
+
+    .features__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+
+        .feature-item {
+            max-width: 250px;
+            margin: 40px auto;
+        }
+    }
+}
+
+
+.feature-item__image {
+    max-width: 100px;
+}
